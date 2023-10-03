@@ -5,7 +5,7 @@ void main() {
   //const pokemon;
 
   //? Las variables sin valor toman el valor dynamic que pueden recibir cualquier tipo de valor sin importar el tipo
-  final variable2;
+  // final variable2;
 
   //? Podemos definir despues la variable
   late final pokemon2;
