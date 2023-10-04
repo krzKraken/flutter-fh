@@ -5,8 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_test_1",
-            "cwd": "flutter_test_1",
+            "name": "hello_word_app",
+            "cwd": "hello_word_app",
             "request": "launch",
             "type": "dart"
         }
