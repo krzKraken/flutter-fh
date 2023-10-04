@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:yes_no_app_1/domain/entities/message.dart';
 
 class MyMessageBuble extends StatelessWidget {
-  const MyMessageBuble({super.key});
+  //?La identidad
+  final Message message;
+  const MyMessageBuble({super.key, required this.message});
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +20,11 @@ class MyMessageBuble extends StatelessWidget {
               color: color.primary,
               borderRadius: BorderRadius.circular(20),
             ),
-            child: const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text(
-                'Sit incid Excepteur in pariatur dolor sunt consectetur.',
-                style: TextStyle(color: Colors.white),
+                message.text,
+                style: const TextStyle(color: Colors.white),
               ),
             ),
           ),

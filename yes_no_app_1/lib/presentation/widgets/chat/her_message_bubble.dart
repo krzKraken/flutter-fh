@@ -20,7 +20,7 @@ class HerMessageBuble extends StatelessWidget {
             child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text(
-                'hol mundo, como estaS?',
+                'hola desde her message',
                 style: TextStyle(color: Colors.white),
               ),
             ),
