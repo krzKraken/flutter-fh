@@ -15,7 +15,7 @@ class ChatScreen extends StatelessWidget {
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI9yf6dETREXc-EyCvN_JDI87sAMaUYxRvHmhdTpkhdw&s'),
           ),
         ),
-        title: const Text('Contacto <3'),
+        title: const Text('Contacto '),
         centerTitle: false,
       ),
       body: const _ChatView(),
