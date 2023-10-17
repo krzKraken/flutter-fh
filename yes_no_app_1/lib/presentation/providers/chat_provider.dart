@@ -37,7 +37,9 @@ class ChatProvider extends ChangeNotifier {
 
   Future<void> herReplay() async {
     final herMessage = await getYesNoAnswer.getAnswer();
-    print(herMessage);
+    messagesList.add(herMessage);
+    notifyListeners();
+    moveScrollToBottom();
   }
 
 //? Funcion mueve scroll hacia abajo al maximo
